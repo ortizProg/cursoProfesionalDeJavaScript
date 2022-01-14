@@ -1,0 +1,86 @@
+/* Inicio de la declaracion variables */
+
+:root {
+
+    /* Declaracion de color */
+
+    --color-orange: #FA4318;
+    --color-yellow: #F7E63E;
+    --color-soft-green: #0CF7A2;
+    --color-blue: #4F19F7;
+    --color-white: #FFF;
+    --color-black: #000;
+
+    /* Declaracion de fuente */
+
+    --text-small: 1rem;
+    --text-normal: 1.6rem;
+    --text-big: 3.2rem;
+    --text-very-big: 5.5rem;
+
+}
+
+/* Fin de la declaracion de variables */
+
+* {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+html {
+
+    font-size: 62.5%;
+    font-family: 'Mochiy Pop P One', sans-serif;;
+
+}
+
+/* Componentes */
+
+.header {
+
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 200px;
+    background: linear-gradient(90deg, var(--color-blue) 0%, var(--color-orange) 50%, var(--color-soft-green) 100%);
+
+}
+
+.titulo {
+
+    font-size: var(--text-very-big);
+
+}
+
+.section {
+
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--color-black);
+
+}
+
+.movie {
+
+    width: 800px;
+
+}
+
+/* modificadores */
+
+.section--movie {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 200px);
+
+}
+
+
